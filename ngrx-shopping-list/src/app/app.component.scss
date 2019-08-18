@@ -1,0 +1,30 @@
+#wrapper{
+  text-align: center;
+  color: white;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  widows: 400px;
+  margin: 0 auto;
+}
+
+
+form{
+  display: flex;
+  flex-direction: row;
+}
+
+
+form > button{
+  border: 0;
+  background: #10ac84;
+  color: white;
+  outline: none;
+
+  &:hover{
+    background: #006266;
+  }
+}
+
